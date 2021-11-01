@@ -1,0 +1,14 @@
+.contact {
+    background-image: url("https://www.candorblog.com/wp-content/uploads/2017/05/travel-022.jpg");
+    height: 500px;
+    width: 100%;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+}
+.contact-detail{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}

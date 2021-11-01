@@ -1,0 +1,44 @@
+[
+    {
+        "id": "crss450",
+        "serviceName": "Cox's Bazar",
+        "price": "600",
+        "description": "Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south.",
+        "image": "https://dhakato.com/wp-content/uploads/2020/02/dhaka_to_coxs_bazar.jpg"
+    },
+    {
+        "id": "crss455",
+        "serviceName": "Sundarban",
+        "price": "500",
+        "description": "Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal.",
+        "image": "https://cdn.britannica.com/21/120921-004-EF2BF168/trees-Sundarbans.jpg"
+    },
+    {
+        "id": "crss655",
+        "serviceName": "Sajek Valley",
+        "price": "700",
+        "description": "Sajek valley is known for its natural environment and is surrounded by mountains, dense forest, and grassland hill tracks. The road to Sajek has high peaks and falls. ",
+        "image": "http://www.shampantours.com/images/5.jpg"
+    },
+    {
+        "id": "crss685",
+        "serviceName": "Rangamati",
+        "price": "500",
+        "description": "Rangamati is the administrative headquarters of Rangamati Hill District in the Chittagong Hill Tracts of Bangladesh. ",
+        "image": "https://cdn.pixabay.com/photo/2020/06/14/12/56/suspension-bridge-5297744_960_720.jpg"
+    },
+    {
+        "id": "crss150",
+        "serviceName": "Sreemangal",
+        "price": "800",
+        "description": "Sreemangal is named after Sri Das and Mangal Das; two brothers who settled on the banks of the Hail Haor. A copper plate of Raja Marundanath from the 11th century was found in Kalapur. ",
+        "image": "https://avijatrik.org/wp-content/uploads/2020/09/tea-870x555.jpg"
+    },
+    {
+        "id": "crss554",
+        "eName": "Shahriar Ahmod",
+        "price": "600",
+        "description": "Lalakhal is a wide channel in the Sharee River. The focal point of the feature is the variety of colours of the water, which varies from blue to green to clear at different points",
+        "image": "http://priobangla.net/responsive/images/spot/594/Lala-Khal-2.jpg"
+    }
+]
