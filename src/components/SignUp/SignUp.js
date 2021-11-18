@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useHistory, useLocation } from 'react-router-dom';
-import useAuth from "../../hooks/useAuth";
+import useAuth from "../../Hooks/useAuth";
 import './SignUp.css'
 
 const SignUp = () => {

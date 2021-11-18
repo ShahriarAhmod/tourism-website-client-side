@@ -10,13 +10,14 @@ import NotFound from './components/NotFound/NotFound';
 import Footer from "./components/Footer/Footer";
 import Services from "./components/Services/Services";
 import SingleService from './components/SingleService/SingleService';
+// import Booking from "./components/Booking/Booking";
 import Contact from "./components/Contact/Contact";
 import SignUp from "./components/SignUp/SignUp";
 import Login from "./components/Login/Login";
 import About from "./components/About/About";
-import AddBooking from "./components/AddBooking/AddBooking";
 import MyBookings from './components/MyBookings/MyBookings';
 import ManageBookings from './components/ManageBookings/ManageBookings';
+import AddDestination from './components/AddDestination/AddDestination';
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
             <PrivateRoute path="/service/:serviceId">
               <SingleService />
             </PrivateRoute>
+            {/* <Route exact path="/booking/:serviceId">
+              <Booking></Booking>
+            </Route> */}
             <Route path="/about" >
               <About />
             </Route>
@@ -55,8 +59,8 @@ function App() {
             <Route path="/manageBookings" >
               <ManageBookings />
             </Route>
-            <Route path="/addBooking" >
-              <AddBooking />
+            <Route path="/addDestination" >
+              <AddDestination />
             </Route>
             <Route path="*">
               <NotFound />
@@ -65,7 +69,7 @@ function App() {
           <Footer />
         </Router>
       </AuthProvider>
-      </div>
+    </div>
   );
 }
 

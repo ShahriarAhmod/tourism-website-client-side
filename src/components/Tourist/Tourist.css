@@ -1,0 +1,21 @@
+.help {
+    background-image: url("https://img.freepik.com/free-vector/self-guided-camping-travel-cartoon-composition-with-online-map-location-symbols-tourists-hiking_1284-62984.jpg?size=626&ext=jpg");
+    height: 600px;
+    width: 100%;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+  }
+
+ .join-btn{
+     width: 130px;
+     border: none;
+     border-radius: 5px;
+     background-color: rgb(99, 39, 81);
+     padding: 8px 10px;
+     color: rgb(255, 254, 254);
+     font-weight: 600;
+     font-size: 18px;
+ }

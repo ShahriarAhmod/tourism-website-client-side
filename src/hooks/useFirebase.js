@@ -23,7 +23,7 @@ const useFirebase = () => {
       setIsLoading(false)
     })
     return () => unsubscribe()
-  }, [])
+  }, [auth])
 
 
   const signInWithGoogle = () => {
@@ -33,10 +33,12 @@ const useFirebase = () => {
 
 
   const createAccountWithGoogle = (email, password) => {
+    
 
     return createUserWithEmailAndPassword(auth, email, password)
   }
 
+  
 
   const loginWithEmailAndPassword = (email, password) => {
     return signInWithEmailAndPassword(auth, email, password)
@@ -57,7 +59,7 @@ const useFirebase = () => {
   }
 
   const logOut = () => {
-    console.log("logouttttt");
+    console.log("logout");
     signOut(auth).then(() => {
       setUser({})
     }).catch((error) => {
@@ -66,7 +68,8 @@ const useFirebase = () => {
   }
 
   return {
-    user, setUser,
+    user, 
+    setUser,
     signInWithGoogle,
     createAccountWithGoogle,
     loginWithEmailAndPassword,

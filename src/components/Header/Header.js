@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../images/Logo.png';
 import "./Header.css"
-import useAuth from '../../hooks/useAuth';
+import useAuth from '../../Hooks/useAuth';
 const Header = () => {
     const { user, logOut } = useAuth();
     return (
@@ -44,7 +44,7 @@ const Header = () => {
                             </li>}
                             <span className="text-light text-decoration-none"> </span>
                             {user?.displayName && <li class="nav-item">
-                                <Link to="/addBooking" className="text-light text-decoration-none ps-3 pe-4">Add Booking</Link>
+                                <Link to="/addDestination" className="text-light text-decoration-none ps-3 pe-4">Add Place</Link>
                             </li>}
 
                             <span className="text-light text-decoration-none pe-3">{user.displayName} </span>

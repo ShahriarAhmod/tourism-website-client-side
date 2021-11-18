@@ -1,19 +1,19 @@
 import React, { useEffect, useState } from "react";
 
-const MyBookings = () => {
+const MyOrders = () => {
   const email = sessionStorage.getItem("email");
   const [services, setServices] = useState([]);
 
   const [control, setControl] = useState(false);
 
   useEffect(() => {
-    fetch(`https://damp-falls-01576.herokuapp.com/myBookings/${email}`)
+    fetch(`https://damp-falls-01576.herokuapp.com/myOrders/${email}`)
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, [control]);
 
   const handleDelete = (id) => {
-    fetch(`https://damp-falls-01576.herokuapp.com/deleteBookings/${id}`, {
+    fetch(`https://damp-falls-01576.herokuapp.com/deleteOrder/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
@@ -26,8 +26,8 @@ const MyBookings = () => {
   };
 
   return (
-    <div className="text-center mt-5 pt-5">
-      <h1>My orders </h1>
+    <div>
+      <h1>My Bookings </h1>
 
       <div className="services">
         <div className="row container">
@@ -58,4 +58,4 @@ const MyBookings = () => {
   );
 };
 
-export default MyBookings;
+export default MyOrders;
